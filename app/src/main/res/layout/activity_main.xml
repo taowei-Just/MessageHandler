@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tao.message.MainActivity">
+ 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sendMessageWhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessageWhat" />
+
+            <Button
+                android:id="@+id/sendMessageWhatBuyTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessageWhatBuyTag"
+
+                />
+
+            <Button
+                android:id="@+id/sendMessageWhatDely"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessageWhatDely" />
+
+            <Button
+                android:id="@+id/sendMessageWhatDelyBuyTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessageWhatDelyBuyTag" />
+
+            <Button
+                android:id="@+id/sendMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessage" />
+
+            <Button
+                android:id="@+id/sendMessageBuyTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessageBuyTag" />
+
+            <Button
+                android:id="@+id/sendMessageDely"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessageDely" />
+
+            <Button
+                android:id="@+id/sendMessageDelyBuyTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="sendMessageDelyBuyTag" />
+
+            <Button
+                android:id="@+id/releaseAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="releaseAll" />
+
+            <Button
+                android:id="@+id/releaseBuyTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="releaseBuyTag" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
