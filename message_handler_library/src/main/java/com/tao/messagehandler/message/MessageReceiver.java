@@ -118,7 +118,7 @@ public abstract class MessageReceiver extends BroadcastReceiver {
             receiverMessage(message);
             return true;
         }else {
-            if (finalTag == 0 )
+            if (finalTag == -1 )
                 return true;
         }
         return false;
