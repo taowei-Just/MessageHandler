@@ -70,7 +70,6 @@ public abstract class MessageReceiver extends BroadcastReceiver {
     }
 
     public void onReceive(Context context, Intent intent) {
-
         String action = intent.getAction();
         int what = intent.getIntExtra(MessageReceiver.message_what, -1);
 //        Bundle message_msg = intent.getBundleExtra("message_msg");
@@ -104,7 +103,6 @@ public abstract class MessageReceiver extends BroadcastReceiver {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-
                 break;
         }
     }
